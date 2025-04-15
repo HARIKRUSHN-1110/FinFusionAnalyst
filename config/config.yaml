@@ -1,0 +1,20 @@
+formatters:
+  detailed:
+    format: '[%(asctime)s]: Line No.: %(lineno)d - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: detailed
+    stream: ext://sys.stdout
+  file:
+    class: logging.FileHandler
+    filename: logs/app.log
+    formatter: detailed
+    encoding: "utf-8"
+    mode: a
+root:
+  handlers:
+  - file
+  - console
+  level: INFO
+version: 1

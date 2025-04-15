@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+matplotlib
+tensorflow
+statsmodels
+pmdarima
+yfinance
+datetime
+torch
+pyyaml

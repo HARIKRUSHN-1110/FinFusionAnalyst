@@ -1,0 +1,2 @@
+# Model parameters for ARIMA, LSTM, etc.
+LOOKBACK = 15
