@@ -3,7 +3,7 @@
 **FinFusion Analyst** is an AI-driven financial analysis platform designed to simplify stock price prediction and investment recommendations.  
 It combines deep learning models, Monte Carlo simulations, and AI-based insights into a user-friendly dashboard.
 
-![FinFusion Analyst Preview](assets/1.png)
+![FinFusion Analyst Preview](screenshots/1.png)
 
 ## Features
 
