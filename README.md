@@ -4,6 +4,9 @@
 It combines deep learning models, Monte Carlo simulations, and AI-based insights into a user-friendly dashboard.
 
 ![FinFusion Analyst Preview](screenshots/1.png)
+![FinFusion Analyst Preview](screenshots/2.png)
+![FinFusion Analyst Preview](screenshots/3.png)
+![FinFusion Analyst Preview](screenshots/4.png)
 
 ## Features
 
