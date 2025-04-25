@@ -1,18 +1,15 @@
 import yfinance as yf
-
-def get_net_income(ticker, version="annual"):
+def get_recommendations(ticker):
+    try:
+        rc = ticker.get_recommendations()
+    except Exception:
+        rc = "Recommendations not available."
 
     try:
-        if version == "annual":
-            income_stmt = ticker.income_stmt
-        elif version == "quarterly":
-            income_stmt = ticker.quarterly_income_stmt
-        else:
-            return "Invalid version specified. Use 'annual' or 'quarterly'."
+        rcsummary = ticker.get_recommendations_summary()
+    except Exception:
+        rcsummary = "Recommendation summary not available."
 
-        net_income = income_stmt.loc["Net Income"]
-        return net_income
-    except Exception as e:
-        return f"Net income not available. Reason: {e}"
-    
-print(get_net_income(yf.Ticker('TCS.BO')))
+    return rc
+
+print(get_recommendations(yf.Ticker('TCS.BO')))

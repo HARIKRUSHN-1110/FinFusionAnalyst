@@ -36,6 +36,7 @@ def monte_carlo_simulation(prices: np.ndarray, num_simulations=1000, num_days=5)
 
 def predict_stock_price_monte_carlo(ticker, num_simulations=1000, num_days=5):
     """Predict future stock prices using Monte Carlo simulation."""
+    
     file_path = os.path.join(PREPROCESSED_DATA_PATH, f"{ticker}.csv")
     
     if not os.path.exists(file_path):
@@ -45,7 +46,7 @@ def predict_stock_price_monte_carlo(ticker, num_simulations=1000, num_days=5):
     df.set_index("date", inplace=True)
     df.index = pd.to_datetime(df.index) # Ensure index is in datetime format
     df['ticker'] = ticker
-    
+
     if "Close" not in df.columns:
         raise KeyError("Missing 'Close' column in dataset.")
 

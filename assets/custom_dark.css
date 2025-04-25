@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+/* General font and background */
+body {
+    background-color: #121212 !important;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1f1f1f !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Cards */
+.card {
+    background-color: #1e1e1e !important;
+    border: 1px solid #2a2a2a !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Card headers */
+.card-header {
+    background-color: #2a2a2a !important;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Dropdown */
+.Select-control, .Select-menu-outer {
+    background-color: #1e1e1e !important;
+    border: 1px solid #3a3a3a !important;
+    color: #ffffff !important;
+}
+
+.Select--single > .Select-control .Select-value {
+    color: #ffffff !important;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* AI recommendation card */
+#ai-recommendation-container .card-body {
+    font-family: 'Noticia Text', serif;
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Graph */
+.js-plotly-plot .plotly {
+    background-color: #121212 !important;
+}
+
+/* Remove focus ring on click */
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Margin helpers */
+.mb-4 {
+    margin-bottom: 2rem !important;
+}
+
+
+/* Fix for dark text inside the dropdown input */
+.Select-control,
+.Select--single > .Select-control .Select-value {
+    background-color: #1e1e2f !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}
+
+/* Selected item text inside the input */
+.Select-value-label {
+    color: #ffffff !important;
+}
+
+/* Placeholder text fix */
+.Select-placeholder {
+    color: #bbbbbb !important;
+}
+
+/* Dropdown arrow */
+.Select-arrow {
+    border-top-color: #ffffff !important;
+}
+
+/* --- AI Recommendation Card --- */
+.ai-card {
+    background: rgba(40, 40, 50, 0.8);
+    border: 1px solid rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    font-family: 'Noticia Text', serif;
+    transition: box-shadow 0.3s ease;
+}
+
+.ai-card:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+/* Card title */
+.card-title {
+    font-family: 'Noticia Text', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+/* Recommendation Text */
+.recommendation-text {
+    font-family: 'Noticia Text', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Dynamic recommendation colors */
+.recommendation-text.buy {
+    color: #00ff88;
+}
+
+.recommendation-text.hold {
+    color: #ffd700;
+}
+
+.recommendation-text.sell {
+    color: #ff4c4c;
+}
+
