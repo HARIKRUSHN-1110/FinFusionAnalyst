@@ -9,3 +9,11 @@ yfinance
 datetime
 torch
 pyyaml
+dash
+dash-bootstrap-components
+pandas
+numpy
+plotly
+scikit-learn
+tensorflow
+gunicorn

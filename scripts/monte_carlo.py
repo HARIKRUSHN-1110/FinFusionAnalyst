@@ -79,7 +79,7 @@ def plot_monte_carlo(last_10_days, last_10_prices, future_dates, predicted_price
         y=last_10_prices,
         mode='lines+markers',
         name='Historical Prices',
-        line=dict(color='blue'),
+        line=dict(color='royalblue', width=2),
         hovertemplate='Date: %{x}<br>Price: %{y:.2f}<extra></extra>'
     ))
 
@@ -114,8 +114,8 @@ def plot_monte_carlo(last_10_days, last_10_prices, future_dates, predicted_price
         y=combined_prices,
         mode='lines',
         name='Continuous Prediction',
-        line=dict(color='green', dash='dash'),
-        hoverinfo='skip'
+        line=dict(color='#bbbbbb', dash='dash'),
+        hoverinfo='skip',
     ))
 
     # X-axis with all dates explicitly shown
@@ -133,7 +133,12 @@ def plot_monte_carlo(last_10_days, last_10_prices, future_dates, predicted_price
         ),
         legend=dict(x=0, y=1),
         hovermode='x unified',
-        template='plotly_white'
+        template="plotly_dark",
+        plot_bgcolor="#1e1e2f",
+        paper_bgcolor="#1e1e2f",
+        font=dict(color="#bbbbbb"),
+        margin=dict(l=40, r=40, t=60, b=40),
+        height=500,
     )
 
     return fig

@@ -20,7 +20,7 @@ logger = get_logger(__name__)
 #    logger.error("This is an error message.")
 #    logger.debug("This is a debug message.")
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     #end_date = datetime.strptime(end_date, '%Y-%m-%d')
     #start_date = datetime.strptime(start_date, '%Y-%m-%d')
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     #add_technical_features()
     #logger.info("Successfully added technical features to the data")
     
-    scale_and_save_data()
+    #scale_and_save_data()
     
     #train_lstm_model()
     #logger.info("Training of LSTM model completed")
