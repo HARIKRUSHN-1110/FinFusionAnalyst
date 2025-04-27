@@ -39,6 +39,7 @@ google-pasta==0.2.0
 greenlet==3.1.1
 groq==0.20.0
 grpcio==1.70.0
+gunicorn
 h11==0.14.0
 h5py==3.12.1
 html5lib==1.1
