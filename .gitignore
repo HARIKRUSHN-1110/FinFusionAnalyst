@@ -227,6 +227,11 @@ cython_debug/
 # Ruff stuff:
 .ruff_cache/
 
+#testing file
+test_logger.py
+testing.py
+apikeytest.py
+
 # PyPI configuration file
 .pypirc
 >>>>>>> 45aa32754dc280f2bac4f4d61bb13e94a7d1ebb9

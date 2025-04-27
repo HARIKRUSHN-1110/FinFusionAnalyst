@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from scripts.lstm import predict_stock_price_lstm
-from tensorflow.keras.models import load_model
-from scripts.lstm import train_lstm_model
+#from tensorflow.keras.models import load_model
+#from scripts.lstm import train_lstm_model
 
 PREPROCESSED_DATA_PATH = r'C:\Users\Dell\VENVs\Stock_Advisor\data\processed\RELIANCE.BSE.csv'
 df=pd.read_csv(PREPROCESSED_DATA_PATH)
@@ -26,9 +26,9 @@ def evaluate_lstm_model():
     print(f"MAPE: {mape:.2f}%")
 
     # Plot actual vs. predicted prices
-    plt.figure(figsize=(10, 6))
-    plt.plot(y_true, label='Actual Prices', color='blue')
-    plt.plot(y_pred, label='Predicted Prices', color='red')
-    plt.legend()
-    plt.title('LSTM Model Evaluation')
-    plt.show()
+    #plt.figure(figsize=(10, 6))
+    #plt.plot(y_true, label='Actual Prices', color='blue')
+    #plt.plot(y_pred, label='Predicted Prices', color='red')
+    #plt.legend()
+    #plt.title('LSTM Model Evaluation')
+    #plt.show()
