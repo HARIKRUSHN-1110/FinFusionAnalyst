@@ -3,9 +3,9 @@
 **FinFusion Analyst** is an AI-driven financial analysis platform designed to simplify stock price prediction and investment recommendations for Bombay Stock Exchange companies (BSE India).
 It combines deep learning models, Monte Carlo simulations, and AI-based insights into a user-friendly dashboard.
 
-![FinFusion Analyst Preview](screenshots/1.png)
-![FinFusion Analyst Preview](screenshots/2.png)
-![FinFusion Analyst Preview](screenshots/3.png)
+![FinFusion Analyst Preview](screenshots/5.png)
+![FinFusion Analyst Preview](screenshots/6.png)
+![FinFusion Analyst Preview](screenshots/7.png)
 ![FinFusion Analyst Preview](screenshots/4.png)
 
 ## Features
